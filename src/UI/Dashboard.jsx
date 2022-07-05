@@ -3,6 +3,7 @@ import './dashboard.css';
 import Navbar from './Navbar';
 import Slideshow from './Slideshow';
 import image1 from '../Image/image1.webp';
+import CarouselApps from './CarouselApps';
 
 export default class Dashboard extends Component {
   render() {
@@ -11,7 +12,8 @@ export default class Dashboard extends Component {
             <div>
             <Navbar/>
             <Slideshow/>
-            </div>
+            <CarouselApps/>
+           </div>
             <div class="flex-box">
               <div class="flex-box-one">
                 <h1>Information</h1>
@@ -33,7 +35,6 @@ export default class Dashboard extends Component {
               <p>The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.</p>
               </div>
             </div>
-    
 
         </div>
         
